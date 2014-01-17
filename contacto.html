@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Catalogo de Artesanias</title>
+	<link rel="stylesheet" href="css/stilos.css"> 
+</head>
+<body>
+	<header>
+		<nav id="header">
+			<figure id="logo">
+				<img src="imagenes/chalina.jpg" alt="Logo Archivo" />
+			</figure>
+			<h1 id="titulo">Catalogo de Artesanias el Altiplano</h1>
+		</nav>
+	</header>
+	<div id="menu">
+		<nav>
+			<ul>
+				<li id="opcion1"><a href="inicio.html">Inicio</a></li>
+				<li id="opcion2"><a href="producto.html">Nuestro Productos</a></li>
+				<li id="opcion3"><a href="catalogo.html">Catalogos</a></li>
+				<li id="opcion4"><a href="contacto.html">Contactanos</a></li>
+			
+			</ul>
+		</nav>
+	</div>
+
+	<nav id="cuerpo">
+		<form id="contactForm" action="#" method="post">
+						<h2 class="heading">Contactenos</h2>
+						<p> Para sugerencias escribanos </p>
+						<fieldset>
+							<div>
+								<input name="name"  id="name" type="text" class="form-poshytip" title="Enter your full name" />
+								<label>Nombre</label>
+							</div>
+							<div>
+								<input name="email"  id="email" type="text" class="form-poshytip" title="Enter your email address" />
+								<label>Correo Electronico</label>
+							</div>
+							<div>
+								
+								<input name="web"  id="web" type="text" class="form-poshytip" title="Enter your website" />
+								<label>Sitio Web</label>
+							</div>
+							<div>
+								<textarea  name="comments"  id="comments" rows="5" cols="20" class="form-poshytip" title="Enter your comments"></textarea>
+							</div>
+							
+							<!-- send mail configuration -->
+							<input type="hidden" value="email@yourserver.com" name="to" id="to" />
+							<input type="hidden" value="Enter the subject here" name="subject" id="subject" />
+							<input type="hidden" value="send-mail.php" name="sendMailUrl" id="sendMailUrl" />
+							<!-- ENDS send mail configuration -->
+							
+							<p><input type="button" value="Send" name="submit" id="submit" /> <span id="error" class="warning">Message</span></p>
+						</fieldset>
+						
+					</form>
+					<p id="sent-form-msg" class="success">Gracias Por sus Comentarios</p>
+					<!-- ENDS form -->
+					
+					
+					<!-- contact sidebar -->
+		        	<aside id="contact-sidebar">
+		        		<div class="block">
+			        		<h4>Numero Telefonico </h4>
+			        			<ul class="address-block">
+			        			<li class="address">Jr moquegua</li>
+			        			<li class="phone">456 789</li>
+			        			<li class="mobile">95223789</li>
+			        			<li class="email"><a href="luque.kin@gmail.com">luque.kin@gmail.com</a></li>
+			        		</ul>
+			        		
+		        		</div>	        	
+		        	</aside>
+	<aside id="sidebar">
+	        		
+	        		
+	        	</aside>
+	</nav>
+	
+</body>
+</html>
